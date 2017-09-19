@@ -134,7 +134,8 @@ header>.contain a:hover{
   color: #777;
   font-size: 14px;
   line-height: 1.75;
-  margin: 0 0 10px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 #services>.container>.lorem>.col-md-4>span{
