@@ -176,8 +176,33 @@ header>.contain a:hover{
 }
 
 #portfolio>.container>.design>.portfolio-item{
-  margin: 15px auto;
+  margin-top: 20px;
   background-color: #fff;
+}
+
+#portfolio>.container>.design>.portfolio-item>.portfolio-hover{
+  position: absolute;
+  width: 360px;
+  height: 260px;
+  background-color: rgba(254,209,54,.9);
+  z-index: 2;
+  opacity: 0;
+  transition: all .3s;
+}
+
+#portfolio>.container>.design>.portfolio-item>.portfolio-hover:hover{
+  opacity: 1;
+}
+
+#portfolio>.container>.design>.portfolio-item>.portfolio-hover>.portfolio-hover-content{
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
 }
 
 #portfolio>.container>.design>.portfolio-item>img{
